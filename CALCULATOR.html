@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>js_calculator</title>
+    <h1 style="color:azure ;">CALCULATOR USING CSS,HTML & JS</h1>
+    <link rel="stylesheet" href="C:\Users\mayur\OneDrive\Desktop\pycodes\workshop\style2.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="cont">
+        <div class="calc">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" value="" id="txt1">
+                </div>
+                <br>
+                <div>
+                    <input type="button" value="AC" onclick="del()">
+                    <input type="button" value="0" onclick="equation(this.value)">
+                    <input type="button" value="/" onclick="equation(this.value)">
+                    <input type="button" value="=" onclick="calculation()">
+                    <br>
+
+                    <input type="button" value="9" onclick="equation(this.value)">
+                    <input type="button" value="8" onclick="equation(this.value)">
+                    <input type="button" value="7" onclick="equation(this.value)">
+                    <input type="button" value="*" onclick="equation(this.value)">
+
+                    <br>
+                    <input type="button" value="6" onclick="equation(this.value)">
+                    <input type="button" value="5" onclick="equation(this.value)">
+                    <input type="button" value="4" onclick="equation(this.value)">
+                    <input type="button" value="-" onclick="equation(this.value)">
+
+                    <br>
+                    <input type="button" value="3" onclick="equation(this.value)">
+                    <input type="button" value="2" onclick="equation(this.value)">
+                    <input type="button" value="1" onclick="equation(this.value)">
+                    <input type="button" value="+" onclick="equation(this.value)">
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
