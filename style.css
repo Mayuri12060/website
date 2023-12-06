@@ -1,0 +1,154 @@
+@import 'utilities.css';
+/* :root{
+
+background-color: #383838;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #383838;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nvcontainer {
+    /* max-width: 2152px; */
+    padding: 0 15px;
+    margin: 0 auto;
+    background-color: #383838;
+    color: #fff;
+
+}
+
+
+.nvcontainer nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.nvcontainer nav a:hover {
+    color: var(--primary);
+}
+
+.nvcontainer nav {
+    padding: 2rem 0;
+}
+
+.name p {
+    margin-top: 6px;
+    margin-right: 28px;
+    /* color: white; */
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.hero {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.hero .left img {
+    width: 500px;
+    padding-right: 2rem;
+    margin-left: 5rem;
+}
+
+.hero.right {
+    color: var(--white);
+    margin-top: -7rem;
+}
+
+.hero .right h6 {
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-centre {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.btn {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn-primary {
+    background-color: gray;
+    color: white;
+    margin-top: -15rem;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.btn-secondary {
+    background: gray;
+    color: white;
+    border-color: gray;
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: var(--secondary);
+}
